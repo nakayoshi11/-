@@ -1,0 +1,115 @@
+.profile-head ul li {
+  list-style: none;
+  margin: 0 16px;
+}
+
+.profile-head ul {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #24292e;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.profile-area {
+  padding: 6px 18px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  display: inline;
+}
+
+.profile-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.about-box {
+  text-align: center;
+}
+
+.about {
+  display: inline-block;
+  border-bottom: solid 1px black;
+}
+
+.about-image {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  margin: 32px;
+}
+
+.bicycle-name {
+  text-align: center;
+}
+
+.bicycle-area {
+  display: inline-block;
+  border-bottom: solid 1px black;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+}
+
+.image-box li {
+  list-style: none;
+  margin: 8px;
+}
+
+.bicycle-image {
+  max-width: 100%;
+}
+
+.image-box h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.image-box p {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .main-image {
+    height: calc(100vh - 60px);
+  }
+
+  .image-box {
+    flex-direction: column;
+  }
+  .bicycle-image {
+    margin-right: 0;
+  }
+}

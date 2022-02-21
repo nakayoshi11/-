@@ -1,0 +1,87 @@
+/* ============================
+ body
+============================== */
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #e9e9e9;
+  font-family: "Gill Sans"; /* font の種類を指定します。*/
+  color: #1b1b1b; /* 文字色を指定します。*/
+  letter-spacing: 3px; /* 文字間の幅を指定します。*/
+}
+
+/* ============================
+ header
+============================== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px; /* 高さに対して 10px を指定します。 */
+}
+
+header .header-title {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+header nav {
+  width: 20%;
+  height: 80%;
+}
+
+/* ============================
+ first-view
+============================== */
+.first-view {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+
+  background-color: blue;
+}
+
+/* ============================
+ main
+============================== */
+main {
+  width: 95%;
+  height: 800px;
+  margin: 0px auto 50px;
+  padding-top: 50px;
+  background-color: green;
+}
+
+/* ============================
+ section
+============================== */
+section {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 50px;
+
+  background-color: black;
+}
+
+/* ============================
+ footer
+============================== */
+footer {
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  background-color: purple;
+}
+
+.footer-top nav {
+  width: 30%;
+  height: 80px;
+
+  background-color: black;
+}
+
+.footer-bottom p {
+  height: 90px;
+
+  background-color: black;
+}
